@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+    
+  
+}
+ @media  screen and (max-width: 999px){
+    .section{
+        width: 100%;
+    }
+} 
+.section{
+    display: flex;
+    
+   
+    
+}
+.heading{
+   margin-left: 2rem;
+ 
+  
+}
+
+.images{
+ margin-right: 3rem;
+ margin-top: 2rem;
+
+   
+   
+}
+
+h2{
+    margin-left: 1rem;
+    color: black;
+}
+h2:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    color: black;
+}
+.img{
+    border-radius: 50%;
+}
+.aboutme{
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px grey;
+   
+}
+.aboutme:hover{
+    background-color: aqua;
+
+    
+}
+.resume{
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px grey;
+}
+.resume:hover{
+    background-color: aqua;
+}
+.projects{
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px grey;
+}
+.projects:hover{
+    background-color: aqua;
+}
+.github{
+    display: flex;
+    margin-bottom: 1.3rem;
+    border-radius: 2rem;
+    box-shadow:  5px 5px 10px grey;
+}
+.github:hover{
+    background-color: aqua;
+}
+.contact{
+    display:flex;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px grey;
+}
+.contact:hover{
+    background-color: aqua;
+}
