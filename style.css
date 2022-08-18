@@ -43,65 +43,71 @@ h2{
     margin-left: 1rem;
     color: black;
 }
-h2:hover{
+.underline:hover{
     text-decoration: underline;
 }
 a{
     text-decoration: none;
+    color: black;
 }
 a:hover{
     text-decoration: underline;
+}
+ul{
+    position:relative;
+    bottom: 8px;
 }
 li{
     color: black;
 }
 .img{
+    
     border-radius: 50%;
+    
+    
 }
 .aboutme{
     display: flex;
+    align-items: center;
+    padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 10px grey;
    
 }
-.aboutme:hover{
-    background-color: aqua;
 
-    
-}
 .resume{
     display: flex;
+    align-items: center;
+    padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px grey;
 }
-.resume:hover{
-    background-color: aqua;
-}
+
 .projects{
     display: flex;
+    align-items: center;
+    padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px grey;
 }
-.projects:hover{
-    background-color: aqua;
-}
+
+
 .github{
     display: flex;
+    align-items: center;
+    padding: 0.5rem;
     margin-bottom: 1.3rem;
     border-radius: 2rem;
     box-shadow:  5px 5px 10px grey;
 }
-.github:hover{
-    background-color: aqua;
-}
+
 .contact{
     display:flex;
+    align-items: center;
+    padding: 0.5rem;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px grey;
-}
-.contact:hover{
-    background-color: aqua;
 }
