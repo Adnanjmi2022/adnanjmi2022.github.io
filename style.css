@@ -2,6 +2,7 @@ html,
 body {
    margin: 0;
    height: 100%;
+   font-family: 'Roboto', sans-serif;
 }
 .container{
     display: flex;
@@ -11,8 +12,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
 .section{
     display: flex;
     justify-content: center;
@@ -20,24 +19,18 @@ body {
 
 }
 .heading{
-  
- 
-   justify-content: center;
-   align-items: center;
    padding:2rem;
-   
 }
 
 .images{
- 
  min-inline-size: 100%;
  inline-size: 100%;
- 
-
 }
+
 h1{
     text-align: center;
     font-size: 3rem;
+ 
 }
 
 h2{
@@ -45,14 +38,14 @@ h2{
     color: black;
 }
 .underline:hover{
-    text-decoration: underline;
+    color: blue;
 }
 a{
     text-decoration: none;
     color: black;
 }
 a:hover{
-    text-decoration: underline;
+    color: blue;
 }
 ul{
     position:relative;
@@ -65,53 +58,23 @@ li{
     border-radius: 50%;
     
 }
-.aboutme{
+.icon{
     display: flex;
     align-items: center;
-    padding: 0.5rem;
     margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 10px grey;
-   
-}
-
-.resume{
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 10px grey;
-}
-
-.projects{
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 10px grey;
-}
-.github{
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    margin-bottom: 1.3rem;
-    border-radius: 2rem;
-    box-shadow:  5px 5px 10px grey;
+    
+    
 }
 .contact{
     display:flex;
     align-items: center;
-    padding: 0.5rem;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 10px grey;
 }
 @media (max-width: 999px){
     .section{
       flex-direction: column;
      }
 }
+
 @media(max-width: 600px){
     .images{
         height: 200px;
@@ -119,7 +82,7 @@ li{
 }
 @media(max-width: 600px){
     .img{
-        height: 30px;
+        height: 40px;
     }
 }
 @media(max-width: 600px){
