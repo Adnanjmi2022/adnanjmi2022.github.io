@@ -2,12 +2,7 @@ html,
 body {
    margin: 0;
    height: 100%;
-   overflow-x: hidden;
-   
-   
-   
 }
-
 .container{
     display: flex;
     justify-content: center;
@@ -26,9 +21,10 @@ body {
 }
 .heading{
   
-   margin-left: 2rem;
+ 
    justify-content: center;
    align-items: center;
+   padding:2rem;
    
 }
 
@@ -115,11 +111,6 @@ li{
     .section{
       flex-direction: column;
      }
-}
-@media (max-width: 999px){
-    .heading{
-        margin-left: 0;
-    }
 }
 @media(max-width: 600px){
     .images{
