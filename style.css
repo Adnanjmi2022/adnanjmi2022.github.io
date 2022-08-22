@@ -20,17 +20,18 @@ body {
 }
 .heading{
    margin-left: 2rem;
+   
 }
 
 .images{
  margin-right: 3rem;
- margin-top: 2rem;
  min-inline-size: 100%;
  inline-size: 100%;
 
 }
 h1{
     text-align: center;
+    font-size: 3rem;
 }
 
 h2{
@@ -106,11 +107,27 @@ li{
       
     }
 }
-@media (max-height: 600px){
-    .section{
-        height: 600px;
+@media(max-width: 600px){
+    .images{
+        height: 200px;
     }
 }
+@media(max-width: 600px){
+    .img{
+        height: 30px;
+    }
+}
+@media(max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
 
 
 
