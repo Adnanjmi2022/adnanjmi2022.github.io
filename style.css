@@ -1,8 +1,10 @@
 html,
 body {
-    margin: 0;
-    height: 100%;
+   margin: 0;
+   height: 100%;
    overflow-x: hidden;
+   
+   
    
 }
 
@@ -18,17 +20,23 @@ body {
 
 .section{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .heading{
+  
    margin-left: 2rem;
+   justify-content: center;
+   align-items: center;
    
 }
 
 .images{
- margin-right: 3rem;
+ 
  min-inline-size: 100%;
  inline-size: 100%;
+ 
 
 }
 h1{
@@ -106,7 +114,11 @@ li{
 @media (max-width: 999px){
     .section{
       flex-direction: column;
-      
+     }
+}
+@media (max-width: 999px){
+    .heading{
+        margin-left: 0;
     }
 }
 @media(max-width: 600px){
@@ -124,6 +136,8 @@ li{
         font-size: 2rem;
     }
 }
+
+
 
 
 
