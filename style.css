@@ -2,7 +2,6 @@ html,
 body {
     margin: 0;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 .container{
@@ -10,14 +9,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
- @media  screen and (max-width: 999px){
-    .section{
-        width: 100%;
-    }
-} 
+
+
 .section{
     display: flex;
+
 }
 .heading{
    margin-left: 2rem;
@@ -26,6 +25,12 @@ body {
 .images{
  margin-right: 3rem;
  margin-top: 2rem;
+ min-inline-size: 100%;
+ inline-size: 100%;
+
+}
+h1{
+    text-align: center;
 }
 
 h2{
@@ -50,8 +55,8 @@ li{
     color: black;
 }
 .img{
-    
     border-radius: 50%;
+    
 }
 .aboutme{
     display: flex;
@@ -95,3 +100,27 @@ li{
     border-radius: 2rem;
     box-shadow: 5px 5px 10px grey;
 }
+@media (max-width: 999px){
+    .section{
+      flex-direction: column;
+      
+    }
+}
+@media (max-height: 600px){
+    .section{
+        height: 600px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
